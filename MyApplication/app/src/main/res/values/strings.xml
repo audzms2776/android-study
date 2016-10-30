@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BasicUi01</string>
+    <string name="intentBtn_text">인텐트 버튼</string>
+</resources>

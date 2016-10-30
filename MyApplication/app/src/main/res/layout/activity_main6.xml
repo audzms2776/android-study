@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yongjyun.com.basicui01.Main6Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4번째 메뉴 클릭" />
+
+    <EditText
+        android:id="@+id/inputTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff9977"
+            android:text="클릭!" />
+
+        <Button
+            android:id="@+id/cleanBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff66"
+            android:text="비우기" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/submitTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아직 입력된 글자가 없습니다.\n글자를 입력해 주세요~"
+        android:textColor="#ff00ff"
+        android:textSize="30sp" />
+
+</LinearLayout>
