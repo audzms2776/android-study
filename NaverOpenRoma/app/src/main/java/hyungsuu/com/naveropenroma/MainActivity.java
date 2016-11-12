@@ -87,19 +87,17 @@ public class MainActivity extends AppCompatActivity {
                         nameEntityArrayList = parseString(response.body().string(), txt);
                         final String[] result = {txt + "의 이름 변환 결과!! \n"};
 
-                        if (nameEntityArrayList == null) {
-                            result[0] += "결과가 없습니다.";
-                            resultTxt.setText(result[0]);
-                            return;
-                        }
-
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
 
-                                for (int i = 0; i < nameEntityArrayList.size(); i++) {
-                                    NameEntity temp = nameEntityArrayList.get(i);
-                                    result[0] += temp.getName() + " 이름은 " + temp.getScore() + "점 입니다 \n";
+                                if (nameEntityArrayList == null) {
+                                    result[0] += "결과가 없습니다.";
+                                } else {
+                                    for (int i = 0; i < nameEntityArrayList.size(); i++) {
+                                        NameEntity temp = nameEntityArrayList.get(i);
+                                        result[0] += temp.getName() + " 이름은 " + temp.getScore() + "점 입니다 \n";
+                                    }
                                 }
 
                                 resultTxt.setText(result[0]);
