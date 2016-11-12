@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/least_menu"
+            android:title="11111" />
+        <item
+            android:id="@+id/pop_menu"
+            android:title="22222" />
+        <item
+            android:id="@+id/like_artist"
+            android:title="33333" />
+
+        <item
+            android:id="@+id/like_list"
+            android:title="44444" />
+
+        <item
+            android:id="@+id/setting_menu"
+            android:title="55555" />
+
+    </group>
+</menu>
