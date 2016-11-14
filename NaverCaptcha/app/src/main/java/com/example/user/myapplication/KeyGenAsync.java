@@ -42,8 +42,8 @@ public class KeyGenAsync extends AsyncTask<Void, Void, String> {
         Request request = new Request.Builder()
                 .url(MyConstant.NAVER_KEY_URL + "code=0")
                 .get()
-                .addHeader("x-naver-client-id", "a1RZIb1p59TLbq3iu_un")
-                .addHeader("x-naver-client-secret", "yzvyDMQvAL")
+                .addHeader("x-naver-client-id", MyConstant.X_Naver_Client_Id)
+                .addHeader("x-naver-client-secret", MyConstant.X_Naver_Client_Secret)
                 .build();
 
         Response response = null;
