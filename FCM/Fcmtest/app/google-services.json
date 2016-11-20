@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1038830111779",
+    "firebase_url": "https://fdcm-test.firebaseio.com",
+    "project_id": "fdcm-test",
+    "storage_bucket": "fdcm-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038830111779:android:b541675f31f0420e",
+        "android_client_info": {
+          "package_name": "hyungsuu.com.fcmtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038830111779-s489a383kmgalqcb0fag6nh0a92nh643.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hyungsuu.com.fcmtest",
+            "certificate_hash": "C4786396B4CF1E38337D2C8AF034D89729F29262"
+          }
+        },
+        {
+          "client_id": "1038830111779-2h3lldu31732tl78bkqp18b5soqjbci5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIzBAPPUMJttkbbqOkfntPFTYBBYgP6Cc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038830111779-2h3lldu31732tl78bkqp18b5soqjbci5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

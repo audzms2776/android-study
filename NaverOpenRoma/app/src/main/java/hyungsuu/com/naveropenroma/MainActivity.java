@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void run() {
 
-                                if (nameEntityArrayList == null) {
+                                if (nameEntityArrayList.size() == 0) {
                                     result[0] += "결과가 없습니다.";
                                 } else {
                                     for (int i = 0; i < nameEntityArrayList.size(); i++) {
@@ -117,7 +117,6 @@ public class MainActivity extends AppCompatActivity {
         Log.e("ss", result);
         try {
             JSONArray jsonArray = new JSONObject(result).getJSONArray("aResult").getJSONObject(0).getJSONArray("aItems");
-            Log.e("ss", String.valueOf(jsonArray));
 
             int length = jsonArray.length();
 
@@ -130,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
             }
         } catch (JSONException e) {
             e.printStackTrace();
-            return null;
         }
 
         return nameEntities;
