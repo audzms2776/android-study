@@ -27,9 +27,6 @@ app.get('/messaging', (req, res)=> {
 
     var message = {
         registration_id: target, // required
-        collapse_key: 'Collapse key',
-        data1: 'this is data1 war !',
-        data2: 'this is data2 war !'
     };
 
     fcm.send(message, function (err, messageId) {
