@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "359260202319",
+    "firebase_url": "https://kantime-24ec2.firebaseio.com",
+    "project_id": "kantime-24ec2",
+    "storage_bucket": "kantime-24ec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359260202319:android:9bcfa23171dd0038",
+        "android_client_info": {
+          "package_name": "hyungsuu.com.kantime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359260202319-rljnbq5gicfblm5tijp60ld4cds7oc2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hyungsuu.com.kantime",
+            "certificate_hash": "C4786396B4CF1E38337D2C8AF034D89729F29262"
+          }
+        },
+        {
+          "client_id": "359260202319-7ue6b4lj5csj56pueo8chh2cqc1vep4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvOEpypFP1AaYvepbwRObpLvLpZCR2eW8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359260202319-7ue6b4lj5csj56pueo8chh2cqc1vep4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
