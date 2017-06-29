@@ -2,5 +2,6 @@
 
 naver login sdk : https://developers.naver.com/docs/login/sdks 
 
-##  android service 
-http://bitsoul.tistory.com/147  참고했습니다
+##  android service source
+1. http://bitsoul.tistory.com/147  
+2. https://stackoverflow.com/questions/11949248/calling-getintent-method-in-service
